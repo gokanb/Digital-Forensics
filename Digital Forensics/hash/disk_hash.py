@@ -1,7 +1,12 @@
 #!bin/usr/env python3
 
-# Author:
-# Description :
+
+'''
+# Author: Gokan Bektas
+# Description:
+                        ########################## Educational Purpose !!! ##########################
+# This script will take file and encrypt md5 and sha256. 
+'''
 
 import hashlib
 import sys
@@ -10,7 +15,7 @@ from typing import Tuple
 def multi_hash(filename):
     """
     This function will calculate the md5 and sha256 hashes
-    of a specified file and return a list conaining the has sums as hex strings.
+    of a specified file and return a list containing the has sums as hex strings.
     """
     
     md5 = hashlib.md5()
