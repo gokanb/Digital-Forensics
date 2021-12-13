@@ -14,7 +14,7 @@ from os.path import join, getsize
 import sys
 from disk_hash import multi_hash
 
-def dir_report(base_path, reportfilename):
+def dir_report(base_path, reportfilename): #report.log created 
     """
     This will create a report containing file integrity information.
     base_path -- the directory with the files to index
