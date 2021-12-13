@@ -1,0 +1,15 @@
+MD5 
+The MD5 message-digest algorithm is a cryptographically broken but still widely used hash function producing a 128-bit hash value. Although MD5 was initially designed to be used as a cryptographic hash function, it has been found to suffer from extensive vulnerabilities. It can still be used as a checksum to verify data integrity, but only against unintentional corruption. It remains suitable for other non-cryptographic purposes, for example for determining the partition for a particular key in a partitioned database, and may be preferred due to lower computational requirements than more recent Secure Hash Algorithms algorithms.[3]
+
+SHA256
+The MD5 message-digest algorithm is a cryptographically broken but still widely used hash function producing a 128-bit hash value. Although MD5 was initially designed to be used as a cryptographic hash function, it has been found to suffer from extensive vulnerabilities. It can still be used as a checksum to verify data integrity, but only against unintentional corruption. It remains suitable for other non-cryptographic purposes, for example for determining the partition for a particular key in a partitioned database, and may be preferred due to lower computational requirements than more recent Secure Hash Algorithms algorithms.[3]
+
+
+SSDEEP
+ssdeep is a program for computing context triggered piecewise hashes (CTPH). Also called fuzzy hashes, CTPH can match inputs that have homologies. Such inputs have sequences of identical bytes in the same order, although bytes in between these sequences may be different in both content and length.
+
+A complete explanation of CTPH can be found in Identifying almost identical files using context triggered piecewise hashing from the journal Digital Investigation. There is a free version of this paper available through the Digital Forensic Research Workshop conference, free version of Identifying almost identical files using context triggered piecewise hashing.
+
+It also provides a library (libfuzzy) to generate/compare fuzzy hashes.
+
+ssdeep hashes are now widely used for simple identification purposes. (e.g. Basic Properties section in VirusTotal) Although “better fuzzy hashes” are available, ssdeep is still one of the primary choices because of its speed (now about twice as fast as TLSH) and being a de facto standard. 
