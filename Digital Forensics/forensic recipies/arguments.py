@@ -5,7 +5,7 @@ import argparse
 '''
 MIT LICENCE
 '''
-#
+
 __authors__ = ["Gokan Bektas"]
 __date__ = 20211213
 __version__ = '1.1.0' #version always change so make sure the update. it has to be quation. 
@@ -13,7 +13,11 @@ __description__ = 'Basic Arguments'
 
 """
                         ########################## Educational Purpose !!! ##########################
-# its a temple. argparse allow us to use library. 
+Description:
+    --> this script will ........
+
+using the script --> python arguments.py Algorithms.txt rep.log --hash --hash-algorithm md5 -l log.txt
+
 """
 
 parser = argparse.ArgumentParser(

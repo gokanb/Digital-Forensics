@@ -1,0 +1,8 @@
+2021-12-14 14:20:53,219 <module>            INFO     Information message
+2021-12-14 14:20:53,219 <module>            DEBUG    debug message
+2021-12-14 14:20:53,220 function_one        WARNING  warning message
+2021-12-14 14:20:53,220 function_two        ERROR    error message
+2021-12-14 14:40:23,811 <module>            INFO     Information message
+2021-12-14 14:40:23,812 <module>            DEBUG    debug message
+2021-12-14 14:40:23,812 function_one        WARNING  warning message
+2021-12-14 14:40:23,812 function_two        ERROR    error message
