@@ -1,0 +1,6 @@
+/Users/gokanbektas/Desktop/Projects/scripts/ip_list.txt
+/Users/gokanbektas/Desktop/Projects/scripts/.DS_Store
+/Users/gokanbektas/Desktop/Projects/scripts/nampScan.py
+/Users/gokanbektas/Desktop/Projects/scripts/ping.py
+/Users/gokanbektas/Desktop/Projects/scripts/port_scanner.py
+/Users/gokanbektas/Desktop/Projects/scripts/advPort_scan.py
