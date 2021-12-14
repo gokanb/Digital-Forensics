@@ -6,7 +6,12 @@ from PIL.ExifTags import TAGS
 import simplekml
 import sys
 
-
+'''
+Description:  
+        -->This script will get information about pictures.
+To run this script--> python metda_pictures.py pass <image.jpg>
+example --> 
+'''
 
 
 __authors__ = ["Gokan Bektas"]
