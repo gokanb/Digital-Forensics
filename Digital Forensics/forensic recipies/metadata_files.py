@@ -16,8 +16,6 @@ example: to print out = python metadata_files.py ~/Desktop/Projects/scripts ### 
 
 '''
 
-
-
 __authors__ = ["Gokan Bektas"]
 __date__ = 20211214
 __version__ = 1.0   # version can bealways change so make sure you update after make a change. it has to be in quation. 
