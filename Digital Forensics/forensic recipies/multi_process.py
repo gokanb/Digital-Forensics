@@ -8,14 +8,14 @@ import time
 
 '''
 Description:  
-        -->This script will 
+        -->This script will run multiprocess.
 To run this script--> python multi_process.py
 example --> 
 '''
 __authors__ = ["Gokan Bektas"]
 __date__ = 20211214
 __version__ = 1.0   # version can be always change so make sure you update after make a change. it has to be in quation. 
-__description__ = ' '
+__description__ = ' multi procesesing script'
 
 def sleeping(seconds):
     proc_name = mp.current_process().name

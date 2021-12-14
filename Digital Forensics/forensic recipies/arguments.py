@@ -10,14 +10,13 @@ __authors__ = ["Gokan Bektas"]
 __date__ = 20211213
 __version__ = '1.1.0' #version always change so make sure the update. it has to be quation. 
 __description__ = 'Basic Arguments'
-
 """
                         ########################## Educational Purpose !!! ##########################
 Description:
+    
     --> this script will ........
 
 using the script --> python arguments.py Algorithms.txt rep.log --hash --hash-algorithm md5 -l log.txt
-
 """
 
 parser = argparse.ArgumentParser(
@@ -51,11 +50,3 @@ if args.hash:
     print("File hashing enabled with {} algorithm".format(ha))
 if not args.log:
     print("Log file not defined. Will write to stdout")
-
-
-'''
-using the script:
-
-python arguments.py Algorithms.txt rep.log --hash --hash-algorithm md5 -l log.txt
-
-'''
