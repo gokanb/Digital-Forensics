@@ -1,19 +1,19 @@
 #!/usr/bin/env python3
 
-import argparse
+import argparse 
 
 '''
-APACHE 2.0 LICENCE
+MIT LICENCE
 '''
-
+#
 __authors__ = ["Gokan Bektas"]
 __date__ = 20211213
-__version__ = 1.0
+__version__ = '1.1.0' #version always change so make sure the update. it has to be quation. 
 __description__ = 'Basic Arguments'
 
 """
                         ########################## Educational Purpose !!! ##########################
-# 
+# its a temple. argparse allow us to use library. 
 """
 
 parser = argparse.ArgumentParser(
@@ -26,6 +26,7 @@ parser.add_argument("INPUT_FILE", help="Path to input file")
 parser.add_argument("OUTPUT_FILE", help="Path tp output  file")
 
 parser.add_argument("--hash", help="Hash the files", action="store_true")
+parser.add_argument('--Usage', help='Usage: python argument.py')
 
 parser.add_argument("--hash-algorithm" ,help="Hash algorithm to use. ie md5, sha1, sha256", choices=['md5', 'sha1', 'sha256'], default="sha256")
 

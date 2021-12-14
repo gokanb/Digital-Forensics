@@ -46,3 +46,7 @@ if __name__ == '__main__':
     print('----------SHA@%^ sums ----------')
     for i in range(len(hashes)):
         print(f'{hashes[i][1]} {sys.argv[i+1]}')
+        
+        '''
+        to use to script: python disk_hash.py pass <filename> to encrypt
+        '''
