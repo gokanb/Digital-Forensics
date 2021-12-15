@@ -5,9 +5,9 @@ import zipfile
 
 '''
 Description: 
-                    -->  
-To run this script: --> 
-example:            --> 
+                    --> This script will get metadata 
+To run this script: --> metadata_msoffic.py 
+example:            --> metadata_msoffic.py <blablabla.docx> or 
 '''
 
 
@@ -30,3 +30,52 @@ zfile= zipfile.ZipFile(args.Office_File)
 # Extracting the key elements for processing
 core_xml = etree.fromstring(zfile.read('docProps/core.xml'))
 app_xml = etree.fromstring(zfile.read('docProps/app.xml'))
+
+
+# Core.xml tag mapping
+core_mapping ={
+    'title': 'Title',
+    'subject': 'Subject',
+    'creator': 'Creator',
+    'keywords': 'Keywrods',
+    'description': 'Description',
+    'lastModifiedBy': 'Last Modified By',
+    'modified': 'Modified',
+    'created': 'Created',
+    'category': 'Category',
+    'contentStatus': 'Status',
+    'revision': 'Revision'
+}
+
+for element in core_xml.getchildren():
+    for key, title in core_mapping():
+        if key in element.tag:
+            if 'date' in title.lower():
+                text = dt.strptime(element.text, "%y%m%d %H:%M:%S.f")
+            else:
+                text = element.text
+            print(f'{title}: {text}')
+            
+app_mapping = {
+    'TotalTime': 'Edit Time (minutes)',
+    'Pages': 'Page Count',
+    'Words': 'Words Count',
+    'Characters': 'Character Count',
+    'Lines' : 'Line Count',
+    'Paragraphs': 'Paragraphs Count',
+    'Company' : 'Company',
+    'HyperlinkBase': 'HyperlinkBase',
+    'Slides': 'Slide Count',
+    'Notes': 'Note Count',
+    'HiddenSlides': 'Hidden Slide Count'
+}
+
+for element in app_xml.getchildren():
+    for key, title in app_mapping.items():
+        if key in element.tag:
+            if 'date' in title.lower():
+                text = dt.strptime(element.text, "%y-%m-%dT%h:%M:%SZ")
+            else:
+                text = element.text
+            print(f'{title}: {text}')
+
