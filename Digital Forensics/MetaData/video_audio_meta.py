@@ -10,9 +10,9 @@ mp4 Definitions http://www.sno.phy.queensu.ca/~phil/exiftool/TagNames/QuickTime.
 
 '''
 Description:  
-        -->T
-To run this script-->
-example --> 
+        --> This script will analyze mp4 mp3. 
+To run this script--> python video_audio.meta.py
+example --> python video_audio.meta.py  <video-audio.json>
 '''
 __authors__ = ["Gokan Bektas"]
 __date__ = 20211214
