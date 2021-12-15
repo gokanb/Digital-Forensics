@@ -6,6 +6,7 @@
 # Description:
                         ########################## Educational Purpose !!! ##########################
 # This script will take file and encrypt md5 and sha256. 
+to run this --> python disk_hash.py pass <filename> to encrypt
 '''
 
 import hashlib
