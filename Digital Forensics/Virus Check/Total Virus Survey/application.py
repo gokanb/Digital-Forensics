@@ -23,7 +23,11 @@ Description:
                 
                     
 To run this script: --> python application.py <domain name / IPs > . "refers to save file same directory" /<directory name> <apikey>
+
+---> create a key.txt file and put API key from "VirusTotal.com" <---
+
 example:            --> python application.py domains.txt ./results.csv key.txt
+
 '''
 
 
