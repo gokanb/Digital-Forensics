@@ -84,7 +84,7 @@ if __name__ == '__main__':
     parser.add_argument('OUTPUT_CSV', help='Output CSV with lookup results')
     args = parser.parse_args
     
-    directory = os.path.dirname(args.OUTPUT_CSV)
+    directory = os.path.dirname(args.OUTPUT_CSV)  #doesnt work
     if not os.path.exists(directory):
         os.makedirs(directory)
         
