@@ -30,6 +30,6 @@ def output_html(output, num_devices, table, devices, custodians, dates):
             DEMO.render(bar_labels=return_labels(dates.keys()),
                         bar_series=return_series(dates.values()),
                         pi_labels=return_labels(devices.keys()),
-                        pi_series=return_series(devices.keys()),
+                        pi_series=return_series(devices.values()),
                         pi_2_labels=return_labels(custodians.keys()),
                         pi_2_series=return_series(custodians.values())))

@@ -66,7 +66,7 @@ demo = {
 
         Chartist.Pie('#chartPreferences', {
           labels: ['Mobile'],
-          series: [Mobile]
+          series: [7]
         });
 
         Chartist.Pie('#chartPreferences2', dataPreferences,
