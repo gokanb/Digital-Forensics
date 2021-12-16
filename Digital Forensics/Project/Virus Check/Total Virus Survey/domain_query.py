@@ -5,6 +5,8 @@ import requests
 import time
 import json
 
+
+# creating query_domain function 
 def query_domain(domains, api, limit):
     if not os.path.exists(api) and os.path.isfile(api):
         print(f'[-] API key file {api} does not exist or is not a file')
@@ -16,6 +18,8 @@ def query_domain(domains, api, limit):
     
     print(f'[+] Quering {len(domains)} Domains / IPs using VIrusTotal API')
     count = 0 
+    
+    
     for domain in domains:
         count += 1
         params = {'resource': domain, 'apikey': api, 'scan': 1}
@@ -27,7 +31,7 @@ def query_domain(domains, api, limit):
         if limit and count == 3:
             print('[!!] Halting execution for a minute to comply wit hpublic API key restrictions')
             time.sleep(60)
-            print('[!!] COntinuing execution of remaining Domains / IPs')
+            print('[!!] Continuing execution of remaining Domains / IPs')
             count = 0 
             
     return json_data

@@ -7,6 +7,10 @@ import time
 
 from file_hash import hash_file
 
+'''
+    
+'''
+
 def query_file (files, api, limit):
     if not os.path.exists(api) and os.path.isfile(api):
         print(f'[-] API key file {api} does not exist or is not a file')
@@ -17,7 +21,7 @@ def query_file (files, api, limit):
         api = infile.read().strip()
     json_data = [] 
     
-    print(f'[+] Hashing and QUering {len(files)} Files using VirusTotal API')
+    print(f'[+] Hashing and Quering {len(files)} Files using VirusTotal API')
     count = 0
     for file_entry in files:
         if os.path.exists(file_entry):

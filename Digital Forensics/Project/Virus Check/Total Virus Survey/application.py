@@ -1,8 +1,8 @@
 #!/bin/usr/env python3
 
 
-#importing libraries to use allow us write this script. 
-import argparse
+#importing libraries to use allow us run this script proper. 
+import argparse 
 import csv
 import hashlib
 import json
@@ -19,11 +19,11 @@ from csv_writer import write_csv
 
 '''
 Description: 
-                    --> This script is review malicious website or files. 
+                    --> This script will be using to review malicious website or files to analyze. We are going to use api key from "VirusTotal" website. 
                 
                     
-To run this script: --> 
-example:            --> 
+To run this script: --> python application.py <domain name / IPs > . "refers to save file same directory" /<directory name> <apikey>
+example:            --> python application.py domains.txt ./results.csv key.txt
 '''
 
 
@@ -34,7 +34,7 @@ __description__ = 'Tool to review malicious websites or files '
 
 
 
-#
+# create main function. 
 def main(input_file, output, api, limit, type):
     objects = set()
     with open (input_file) as infile:
@@ -42,7 +42,8 @@ def main(input_file, output, api, limit, type):
             if line.strip() != '':
                 objects.add(line.strip())
                 
-    
+     
+               
     if type == 'domain':
         data = query_domain(objects, api, limit)
         
@@ -50,8 +51,7 @@ def main(input_file, output, api, limit, type):
         data = query_file(objects, api, limit)
     write_csv(data, output)
     
-    
-    
+   
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__description__, epilog="Developed by {} on {}".format(', '.join(__authors__), __date__))
     parser.add_argument("INPUT_FILE", help="Text File containing list of file paths/hashes or domains/IPs ")
@@ -66,10 +66,11 @@ if __name__ == '__main__':
     if not os.path.exists(directory):
         os.makedirs(directory)
         
+     
         
     if os.path.exists(args.INPUT_FILE) and os.path.isfile(args.INPUT_FILE):
         main(args.INPUT_FILE, args.OUTPUT_CSV, args.API_KEY, args.limit, args.type)
-        
+    
     else:
         print(f'[-] Supplied input file {args.INPUT_FILE} does not exist or is not a file')
         sys.exit(1)

@@ -1,5 +1,9 @@
 import hashlib
 
+'''
+create hash function to hash to given file_path
+'''
+
 def hash_file(file_path):
     sha256 = hashlib.sha256()
     with open(file_path, 'rb') as open_file:
