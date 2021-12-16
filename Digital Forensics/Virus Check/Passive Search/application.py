@@ -79,9 +79,10 @@ def main(domain_file, output):
     
     
 if __name__ == '__main__':
+    
     parser = argparse.ArgumentParser(description=__description__, epilog="Developed by {} on {}".format(", ".join(__authors__), __date__))
     parser.add_argument('INPUT_DOMAINS', help='Text File containing Domains and/or IPs')
-    parser.add_argument('OUTPUT_CSV', help='Output CSV with lookup results')
+    parser.add_argument("OUTPUT_CSV", help='Output CSV with lookup results')
     args = parser.parse_args
     
     directory = os.path.dirname(args.OUTPUT_CSV)  #doesnt work
