@@ -4,7 +4,7 @@
 # Author: Gokan Bektas
 # Description:
                         ########################## Educational Purpose !!! ##########################
-# this script will create a report. "from disk_hash adn import multi_hash" script will help us out encrypt 
+# this script will create a report. "from disk_hash and import multi_hash" script will help us out encrypt 
 # two different method such as md5 and sha256. 
 '''
 
