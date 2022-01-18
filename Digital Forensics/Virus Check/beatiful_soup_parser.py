@@ -10,10 +10,12 @@ from urllib.request import urlopen
 import urllib.error
 
 
-# script will scann domain and get links from website and gathering information and generating hash of each link found and put into log file.
+
 '''
 Description: 
-                    --> This script is used to identify and andextract all links from a web site gather data in steps:
+
+Script will scann domain and get links from website and gathering information and generating hash of each link found and put into log file.
+                    --> This script is use to identify and andextract all links from a web site gather data in steps:
                     * Accessing the site and identify all the initial links.
                     * Recursively find addional information and append it to a log.
                     * Generate a hash of each link found
