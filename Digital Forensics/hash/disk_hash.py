@@ -3,10 +3,13 @@
 
 '''
 # Author: Gokan Bektas
+# Date : 2-25-22
+# Version : 1.0
 # Description:
                         ########################## Educational Purpose !!! ##########################
 # This script will take file and encrypt md5 and sha256. 
 to run this --> python disk_hash.py pass <filename> to encrypt
+
 '''
 
 import hashlib
@@ -48,6 +51,3 @@ if __name__ == '__main__':
     for i in range(len(hashes)):
         print(f'{hashes[i][1]} {sys.argv[i+1]}')
         
-        '''
-        to use to script: python disk_hash.py pass <filename> to encrypt
-        '''

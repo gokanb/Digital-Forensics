@@ -1,0 +1,146 @@
+2022-03-10 16:29:02,249INFO    Starting Site Links Preservation
+2022-03-10 16:29:02,249DEBUG   Supplied arguments: ['http://facebook.com', '-l', 'facebook.log', './logs/']
+2022-03-10 16:29:02,249DEBUG   System darwin
+2022-03-10 16:29:02,249DEBUG   Version 3.8.2 (v3.8.2:7b3ab5921f, Feb 24 2020, 17:52:18) 
+[Clang 6.0 (clang-600.0.57)]
+2022-03-10 16:29:02,249INFO    Accesing http://facebook.com webpage
+2022-03-10 16:29:02,601DEBUG   Succesfully accessed http://facebook.com
+2022-03-10 16:29:02,601DEBUG   Writing facebook.com to ./logs/
+2022-03-10 16:29:02,601DEBUG   Data Hash: 68d48d51cc71defcd6c882cf62153ced4c80bd687222f22d85f1e534cc52ac0141aec46a260d2caffd99e3a7b83df728bad2f41f2ad37ade2e86d6ad1986038e
+2022-03-10 16:29:02,603DEBUG   Output File Hash: 68d48d51cc71defcd6c882cf62153ced4c80bd687222f22d85f1e534cc52ac0141aec46a260d2caffd99e3a7b83df728bad2f41f2ad37ade2e86d6ad1986038e
+2022-03-10 16:29:02,613INFO    Found {'https://es-la.facebook.com/', 'https://ar-ar.facebook.com/', 'https://www.facebook.com/watch/', 'https://portal.facebook.com/', 'https://de-de.facebook.com/', 'https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2F&h=AT21tQyH5wLVcR8MrGo07pRk1-ZJlXBYB8hg8kUajQY3l5pjFZTQvwcmoZMTiGlz8akAMdP9VU64nUoRTvl4t4YKwkV26vs42c2p0aA_bbxZtahDDAQmBOg9eIjVIfrb_gA-iSRhUfojSbyJ', 'https://ko-kr.facebook.com/', 'https://hi-in.facebook.com/', 'https://fr-fr.facebook.com/', 'https://ja-jp.facebook.com/', 'https://zh-cn.facebook.com/', 'https://it-it.facebook.com/', 'https://www.facebook.com/help/568137493302217', 'https://about.facebook.com/', 'https://pay.facebook.com/', 'https://www.facebook.com/recover/initiate/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjQ2OTQ3NzQyLCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D&ars=facebook_login', 'https://developers.facebook.com/?ref=pf', 'https://pt-br.facebook.com/'} initial links on webpage
+2022-03-10 16:29:02,800DEBUG   Writing es-la.facebook.com to ./logs/
+2022-03-10 16:29:02,801DEBUG   Data Hash: c46f3f79c62319dce3284ab4ce8d5e408777078ec4433cc06966a496841507b7f2eefe501be9c223b951e4ece5ea7541f035f8db2bc10fc4a47f51f4855fcf76
+2022-03-10 16:29:02,802DEBUG   Output File Hash: c46f3f79c62319dce3284ab4ce8d5e408777078ec4433cc06966a496841507b7f2eefe501be9c223b951e4ece5ea7541f035f8db2bc10fc4a47f51f4855fcf76
+2022-03-10 16:29:04,109DEBUG   Writing portal.facebook.com to ./logs/
+2022-03-10 16:29:04,112DEBUG   Data Hash: 33cf195a7924beee41296a61f4508f9ca40b8477bdaeede587d96271a20b91069b7c21e9cb4043c3f57139b3fb28f3366a6b21ad4e338ca2cd29ca2b8717a989
+2022-03-10 16:29:04,115DEBUG   Output File Hash: 33cf195a7924beee41296a61f4508f9ca40b8477bdaeede587d96271a20b91069b7c21e9cb4043c3f57139b3fb28f3366a6b21ad4e338ca2cd29ca2b8717a989
+2022-03-10 16:29:04,267DEBUG   Writing l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2F&h=AT21tQyH5wLVcR8MrGo07pRk1-ZJlXBYB8hg8kUajQY3l5pjFZTQvwcmoZMTiGlz8akAMdP9VU64nUoRTvl4t4YKwkV26vs42c2p0aA_bbxZtahDDAQmBOg9eIjVIfrb_gA-iSRhUfojSbyJ to ./logs/
+2022-03-10 16:29:04,267DEBUG   Data Hash: e297486aaa714b1356bc9404edc3d56323141c4e8957ac76459b605fcaf5c2867d7e218c0862f10dbe09e0ceccdf9630495355ffdd7449cd94632fa6e9ccd4a8
+2022-03-10 16:29:04,268DEBUG   Output File Hash: e297486aaa714b1356bc9404edc3d56323141c4e8957ac76459b605fcaf5c2867d7e218c0862f10dbe09e0ceccdf9630495355ffdd7449cd94632fa6e9ccd4a8
+2022-03-10 16:29:04,439DEBUG   Writing de-de.facebook.com to ./logs/
+2022-03-10 16:29:04,440DEBUG   Data Hash: 9b547dfe90a8779e898245b4ce29cf475660262378a4ff77cef8b543f061fcb1b87baec518e2caaa1d63765fb61ef857db8103982bfdb947a8f419afbaafa12c
+2022-03-10 16:29:04,441DEBUG   Output File Hash: 9b547dfe90a8779e898245b4ce29cf475660262378a4ff77cef8b543f061fcb1b87baec518e2caaa1d63765fb61ef857db8103982bfdb947a8f419afbaafa12c
+2022-03-10 16:29:04,634DEBUG   Writing ko-kr.facebook.com to ./logs/
+2022-03-10 16:29:04,635DEBUG   Data Hash: cfb908d708146aaca06dc2d193e03e6f0f6a7afed8f59c92aebc33be9fb629459522b4a010b6546ea907ee9850e31d0a300168eb7d6b32ea2ef17f553e8868a8
+2022-03-10 16:29:04,636DEBUG   Output File Hash: cfb908d708146aaca06dc2d193e03e6f0f6a7afed8f59c92aebc33be9fb629459522b4a010b6546ea907ee9850e31d0a300168eb7d6b32ea2ef17f553e8868a8
+2022-03-10 16:29:04,824DEBUG   Writing fr-fr.facebook.com to ./logs/
+2022-03-10 16:29:04,824DEBUG   Data Hash: 87c6c7e6eecf2e0b3f15774cbffc43066b5187788e25002bda33b32bda6775788a78ce0af14e9074c589eca5cc5f73c1ad26dcbdbc109cd30ddbda84516002de
+2022-03-10 16:29:04,825DEBUG   Output File Hash: 87c6c7e6eecf2e0b3f15774cbffc43066b5187788e25002bda33b32bda6775788a78ce0af14e9074c589eca5cc5f73c1ad26dcbdbc109cd30ddbda84516002de
+2022-03-10 16:29:05,078DEBUG   Writing it-it.facebook.com to ./logs/
+2022-03-10 16:29:05,078DEBUG   Data Hash: 3ebed079c6710e06fc5b6368cc654020069a2bb9cb7c152d967d2c40928e7a9516c850a3ddf5f5cc2596dbc56706d7c623f6f45a1f7676e7efc24b5a8ae25c31
+2022-03-10 16:29:05,079DEBUG   Output File Hash: 3ebed079c6710e06fc5b6368cc654020069a2bb9cb7c152d967d2c40928e7a9516c850a3ddf5f5cc2596dbc56706d7c623f6f45a1f7676e7efc24b5a8ae25c31
+2022-03-10 16:29:05,215DEBUG   Writing www.facebook.com/help/568137493302217 to ./logs/
+2022-03-10 16:29:05,215DEBUG   Data Hash: 6aa3d13de9a3769b01490b02cab8bc1091187b690cfe805d767e291740cbb40ef11c3582e62063c6332d808a78a4f88d049dad330a3342170b58f919287e34af
+2022-03-10 16:29:05,217DEBUG   Output File Hash: 6aa3d13de9a3769b01490b02cab8bc1091187b690cfe805d767e291740cbb40ef11c3582e62063c6332d808a78a4f88d049dad330a3342170b58f919287e34af
+2022-03-10 16:29:05,857DEBUG   Writing pay.facebook.com to ./logs/
+2022-03-10 16:29:05,858DEBUG   Data Hash: c6573875e7c60a5a917266015efe31d12778d0191891f5a4e499c14a372df46cfcb75946e5ac31549ac41b50575b59c04d74937079a1ba35cc456e70fa6783a2
+2022-03-10 16:29:05,860DEBUG   Output File Hash: c6573875e7c60a5a917266015efe31d12778d0191891f5a4e499c14a372df46cfcb75946e5ac31549ac41b50575b59c04d74937079a1ba35cc456e70fa6783a2
+2022-03-10 16:29:06,042DEBUG   Writing pt-br.facebook.com to ./logs/
+2022-03-10 16:29:06,043DEBUG   Data Hash: 9ed2b35bb71796937b5e71788262d9338d29011036b1a5579ab866d58f6c4fb41a0668c1c57a97652a09894192192db5142708ef2fa3f41d49d5e6c0d9c48bdd
+2022-03-10 16:29:06,044DEBUG   Output File Hash: 9ed2b35bb71796937b5e71788262d9338d29011036b1a5579ab866d58f6c4fb41a0668c1c57a97652a09894192192db5142708ef2fa3f41d49d5e6c0d9c48bdd
+2022-03-10 16:29:06,227DEBUG   Writing ar-ar.facebook.com to ./logs/
+2022-03-10 16:29:06,228DEBUG   Data Hash: 48666016c8a646614638de3281b7cd461c55858ee664f2895fa2cde08796dbb310f2047ddaff4c4707c0e3110668156b17281001d3bc3e4026a0442a55f88458
+2022-03-10 16:29:06,229DEBUG   Output File Hash: 48666016c8a646614638de3281b7cd461c55858ee664f2895fa2cde08796dbb310f2047ddaff4c4707c0e3110668156b17281001d3bc3e4026a0442a55f88458
+2022-03-10 16:29:06,342DEBUG   Writing www.facebook.com/watch to ./logs/
+2022-03-10 16:29:06,342DEBUG   Data Hash: 1ada739ea4950dc9c894d7b609607447ebb832a4dd8ecfb430a1405a411d9ae85525d9c415bf84e51b6f700622ae7e3731720ca2e9137eba770a0afe234c07b4
+2022-03-10 16:29:06,343DEBUG   Output File Hash: 1ada739ea4950dc9c894d7b609607447ebb832a4dd8ecfb430a1405a411d9ae85525d9c415bf84e51b6f700622ae7e3731720ca2e9137eba770a0afe234c07b4
+2022-03-10 16:29:06,515DEBUG   Writing hi-in.facebook.com to ./logs/
+2022-03-10 16:29:06,516DEBUG   Data Hash: 205de43450637ce934422c749eac3d35fdbe2a6e21eed87a43697e4e4b312d67d6d11dedbf02a4ab23726ca9d4b1c6e9682b6458096baee478898d49e3adefbf
+2022-03-10 16:29:06,517DEBUG   Output File Hash: 205de43450637ce934422c749eac3d35fdbe2a6e21eed87a43697e4e4b312d67d6d11dedbf02a4ab23726ca9d4b1c6e9682b6458096baee478898d49e3adefbf
+2022-03-10 16:29:06,705DEBUG   Writing ja-jp.facebook.com to ./logs/
+2022-03-10 16:29:06,705DEBUG   Data Hash: 1d9eb1166af46e9f7bdbfb44a8232364f12daebafffd0d0e44678c7914890be063daa1028866917080d3d5ca4ada916c1d76089f7843313dab6603e5fedb5003
+2022-03-10 16:29:06,706DEBUG   Output File Hash: 1d9eb1166af46e9f7bdbfb44a8232364f12daebafffd0d0e44678c7914890be063daa1028866917080d3d5ca4ada916c1d76089f7843313dab6603e5fedb5003
+2022-03-10 16:29:06,900DEBUG   Writing zh-cn.facebook.com to ./logs/
+2022-03-10 16:29:06,900DEBUG   Data Hash: e3d99641e1e26800f4079c3e99456f7a260b35f19d7bb67d6d2a85da6d21966f60322c7875f86007eab21521e815d0ed5f71bc16d2e070a90a2b3c486c14df51
+2022-03-10 16:29:06,901DEBUG   Output File Hash: e3d99641e1e26800f4079c3e99456f7a260b35f19d7bb67d6d2a85da6d21966f60322c7875f86007eab21521e815d0ed5f71bc16d2e070a90a2b3c486c14df51
+2022-03-10 16:29:07,335DEBUG   Writing about.facebook.com to ./logs/
+2022-03-10 16:29:07,336DEBUG   Data Hash: a618dff980c890947f61bb8e62b14012406f97e501812d066f7552b546e54e489e6cbf57a4c212b78081a0855324c8b7c976e7054923f0974cd08f20a9c649e5
+2022-03-10 16:29:07,338DEBUG   Output File Hash: a618dff980c890947f61bb8e62b14012406f97e501812d066f7552b546e54e489e6cbf57a4c212b78081a0855324c8b7c976e7054923f0974cd08f20a9c649e5
+2022-03-10 16:29:07,561DEBUG   Writing www.facebook.com/recover/initiate/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjQ2OTQ3NzQyLCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D&ars=facebook_login to ./logs/
+2022-03-10 16:29:07,561DEBUG   Data Hash: f28dec444ad6200087dc952bd2a00c4b032fc39bf74bd3b2070ba8dbfb6a217cbe8d00821f7fd5683523a64856f6ac23035162e81ed4e013b4f8efadf567e2a2
+2022-03-10 16:29:07,563DEBUG   Output File Hash: f28dec444ad6200087dc952bd2a00c4b032fc39bf74bd3b2070ba8dbfb6a217cbe8d00821f7fd5683523a64856f6ac23035162e81ed4e013b4f8efadf567e2a2
+2022-03-10 16:29:09,746DEBUG   Writing developers.facebook.com/?ref=pf to ./logs/
+2022-03-10 16:29:09,747DEBUG   Data Hash: 7a432de5f7a46f91ecfaad86874cc686c66e787988d44aa7af3fa553ca64816fc5b120eea094d4c736e09b57650139cf2b558acf5533a54c58cb6180446be38b
+2022-03-10 16:29:09,749DEBUG   Output File Hash: 7a432de5f7a46f91ecfaad86874cc686c66e787988d44aa7af3fa553ca64816fc5b120eea094d4c736e09b57650139cf2b558acf5533a54c58cb6180446be38b
+2022-03-10 16:29:09,775INFO    Identified 18 links throughout website
+2022-03-10 16:29:09,775INFO    Completed preservation of http://facebook.com
+2022-03-11 11:18:48,616INFO    Starting Site Links Preservation
+2022-03-11 11:18:48,616DEBUG   Supplied arguments: ['http://google.com', '-l', 'facebook.log', './logs/']
+2022-03-11 11:18:48,616DEBUG   System darwin
+2022-03-11 11:18:48,616DEBUG   Version 3.8.2 (v3.8.2:7b3ab5921f, Feb 24 2020, 17:52:18) 
+[Clang 6.0 (clang-600.0.57)]
+2022-03-11 11:18:48,616INFO    Accesing http://google.com webpage
+2022-03-11 11:19:05,188INFO    Starting Site Links Preservation
+2022-03-11 11:19:05,188DEBUG   Supplied arguments: ['http://google.com', '-l', 'facebook.log', './logs/']
+2022-03-11 11:19:05,188DEBUG   System darwin
+2022-03-11 11:19:05,188DEBUG   Version 3.8.2 (v3.8.2:7b3ab5921f, Feb 24 2020, 17:52:18) 
+[Clang 6.0 (clang-600.0.57)]
+2022-03-11 11:19:05,189INFO    Accesing http://google.com webpage
+2022-03-11 11:19:59,881INFO    Starting Site Links Preservation
+2022-03-11 11:19:59,881DEBUG   Supplied arguments: ['http://facebook.com', '-l', 'facebook.log', './logs/']
+2022-03-11 11:19:59,881DEBUG   System darwin
+2022-03-11 11:19:59,881DEBUG   Version 3.8.2 (v3.8.2:7b3ab5921f, Feb 24 2020, 17:52:18) 
+[Clang 6.0 (clang-600.0.57)]
+2022-03-11 11:19:59,881INFO    Accesing http://facebook.com webpage
+2022-03-11 11:20:00,107DEBUG   Succesfully accessed http://facebook.com
+2022-03-11 11:20:00,107DEBUG   Writing facebook.com to ./logs/
+2022-03-11 11:20:00,108DEBUG   Data Hash: c79da7027aedddfaa74239b25effce4ff099388dbb46d8335f5223726a6a960e72a0ec498d3e54f7a83af90a2da81170d315df8e14ff62175f4435beb3cb1721
+2022-03-11 11:20:00,109DEBUG   Output File Hash: c79da7027aedddfaa74239b25effce4ff099388dbb46d8335f5223726a6a960e72a0ec498d3e54f7a83af90a2da81170d315df8e14ff62175f4435beb3cb1721
+2022-03-11 11:20:00,117INFO    Found {'https://ja-jp.facebook.com/', 'https://www.facebook.com/help/568137493302217', 'https://zh-cn.facebook.com/', 'https://www.facebook.com/recover/initiate/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjQ3MDE1NjAwLCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D&ars=facebook_login', 'https://it-it.facebook.com/', 'https://ko-kr.facebook.com/', 'https://de-de.facebook.com/', 'https://www.facebook.com/watch/', 'https://developers.facebook.com/?ref=pf', 'https://hi-in.facebook.com/', 'https://ar-ar.facebook.com/', 'https://es-la.facebook.com/', 'https://portal.facebook.com/', 'https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2F&h=AT2a8IWMjix86E0a2ADU_MkiaIfBe3NKOsy4wfgMJFxApCsJJpsEdzMFtVA0xoSVtmmdD-mrCW6QM3ITnyqMBDeV-f-btk2huJZGjRKEMWMWv0aeMfziAt0qOr_8DU8W92nijdYDBpIw8WmJ', 'https://about.facebook.com/', 'https://pay.facebook.com/', 'https://pt-br.facebook.com/', 'https://fr-fr.facebook.com/'} initial links on webpage
+2022-03-11 11:20:00,204DEBUG   Writing www.facebook.com/help/568137493302217 to ./logs/
+2022-03-11 11:20:00,205DEBUG   Data Hash: 0342513bfdfc9a909b32f68ab99a61960ef024dc8d9f392a4566346c5e9370e8afa61f1266b8d707eca74fd5770daede53c10f1218d96530c9649a30266aa7c2
+2022-03-11 11:20:00,206DEBUG   Output File Hash: 0342513bfdfc9a909b32f68ab99a61960ef024dc8d9f392a4566346c5e9370e8afa61f1266b8d707eca74fd5770daede53c10f1218d96530c9649a30266aa7c2
+2022-03-11 11:20:00,304DEBUG   Writing it-it.facebook.com to ./logs/
+2022-03-11 11:20:00,304DEBUG   Data Hash: 6795e6600c8bd77308283c9a0dba7850ebd41b1f0ad7cdf68e4dd206bc30886eca9714e4ba5643d7d9b55673bed2610a9fd19270d7f54777871bd91f5b75e8f1
+2022-03-11 11:20:00,305DEBUG   Output File Hash: 6795e6600c8bd77308283c9a0dba7850ebd41b1f0ad7cdf68e4dd206bc30886eca9714e4ba5643d7d9b55673bed2610a9fd19270d7f54777871bd91f5b75e8f1
+2022-03-11 11:20:00,436DEBUG   Writing de-de.facebook.com to ./logs/
+2022-03-11 11:20:00,436DEBUG   Data Hash: 2b9741d1e07e4238fdd5edc217f9651aafbbb23b1920ee398255712da552ea3dcbdef9f56eb601e850a20b24f7c422a2152ceaeb0edaca8bd92b64f42639e710
+2022-03-11 11:20:00,437DEBUG   Output File Hash: 2b9741d1e07e4238fdd5edc217f9651aafbbb23b1920ee398255712da552ea3dcbdef9f56eb601e850a20b24f7c422a2152ceaeb0edaca8bd92b64f42639e710
+2022-03-11 11:20:00,610DEBUG   Writing ar-ar.facebook.com to ./logs/
+2022-03-11 11:20:00,611DEBUG   Data Hash: 4d7bf3b7c6a50fd8fcbaa77c824e469389c1031353c068c06c905507f1c88e2af721fd501234f762ff2f1b238cf324ea2e00eda26aafe59c3f3073f7a211d93f
+2022-03-11 11:20:00,612DEBUG   Output File Hash: 4d7bf3b7c6a50fd8fcbaa77c824e469389c1031353c068c06c905507f1c88e2af721fd501234f762ff2f1b238cf324ea2e00eda26aafe59c3f3073f7a211d93f
+2022-03-11 11:20:02,188DEBUG   Writing portal.facebook.com to ./logs/
+2022-03-11 11:20:02,189DEBUG   Data Hash: 7d8869eeb1f645166b2ab50432475a417d2a7ca924b2a6f28535d22b1909c030260c7ecd1baaa37ae28d0d0c7a5d20a680e8853c9032c2db9ec8da7e4e7fc122
+2022-03-11 11:20:02,193DEBUG   Output File Hash: 7d8869eeb1f645166b2ab50432475a417d2a7ca924b2a6f28535d22b1909c030260c7ecd1baaa37ae28d0d0c7a5d20a680e8853c9032c2db9ec8da7e4e7fc122
+2022-03-11 11:20:02,272DEBUG   Writing l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2F&h=AT2a8IWMjix86E0a2ADU_MkiaIfBe3NKOsy4wfgMJFxApCsJJpsEdzMFtVA0xoSVtmmdD-mrCW6QM3ITnyqMBDeV-f-btk2huJZGjRKEMWMWv0aeMfziAt0qOr_8DU8W92nijdYDBpIw8WmJ to ./logs/
+2022-03-11 11:20:02,272DEBUG   Data Hash: af04e7413a98326e53308439842f624a3999d1e9520c95c4cc575222db3baef99b7a34df4919234c755faa1b597c6f86c02b8463596a2a66d46fff1dc7b0527e
+2022-03-11 11:20:02,273DEBUG   Output File Hash: af04e7413a98326e53308439842f624a3999d1e9520c95c4cc575222db3baef99b7a34df4919234c755faa1b597c6f86c02b8463596a2a66d46fff1dc7b0527e
+2022-03-11 11:20:02,811DEBUG   Writing pay.facebook.com to ./logs/
+2022-03-11 11:20:02,812DEBUG   Data Hash: 5b85d2a11be860c49d9e1552765828d86c97213082819c5534d2f81bfc0c6ca7e4661416ca46e860166f786e462863c42efe4263904260eadacefe7c496cd4ab
+2022-03-11 11:20:02,814DEBUG   Output File Hash: 5b85d2a11be860c49d9e1552765828d86c97213082819c5534d2f81bfc0c6ca7e4661416ca46e860166f786e462863c42efe4263904260eadacefe7c496cd4ab
+2022-03-11 11:20:02,944DEBUG   Writing ja-jp.facebook.com to ./logs/
+2022-03-11 11:20:02,944DEBUG   Data Hash: 4ac10c161e9047617d5a6c3ee19f803c278c669d757ec3937dfe5f85f84b13bcb26488af182f79eaa6dda5298c33248208484f481b580a055bac770d48709b8d
+2022-03-11 11:20:02,945DEBUG   Output File Hash: 4ac10c161e9047617d5a6c3ee19f803c278c669d757ec3937dfe5f85f84b13bcb26488af182f79eaa6dda5298c33248208484f481b580a055bac770d48709b8d
+2022-03-11 11:20:03,077DEBUG   Writing zh-cn.facebook.com to ./logs/
+2022-03-11 11:20:03,077DEBUG   Data Hash: 41b888d79c6103f4b1a7a2c8ead3b0f0edf69ca8650aee81e930faf31130e71f6309088f24f14711c1f40a09e8f36071a0de108368e55dba941c6e768c3c4736
+2022-03-11 11:20:03,078DEBUG   Output File Hash: 41b888d79c6103f4b1a7a2c8ead3b0f0edf69ca8650aee81e930faf31130e71f6309088f24f14711c1f40a09e8f36071a0de108368e55dba941c6e768c3c4736
+2022-03-11 11:20:03,207DEBUG   Writing www.facebook.com/recover/initiate/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjQ3MDE1NjAwLCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D&ars=facebook_login to ./logs/
+2022-03-11 11:20:03,208DEBUG   Data Hash: ce696d77d2fd9af41a8d39f2b585747e9ea3e90c8950a14e03c4cc5acecc5a3464084a4a3cd0ea7a098bcd6a7b0d2623abe310e70aaf3408fb0c49de72d7ccd4
+2022-03-11 11:20:03,209DEBUG   Output File Hash: ce696d77d2fd9af41a8d39f2b585747e9ea3e90c8950a14e03c4cc5acecc5a3464084a4a3cd0ea7a098bcd6a7b0d2623abe310e70aaf3408fb0c49de72d7ccd4
+2022-03-11 11:20:03,330DEBUG   Writing ko-kr.facebook.com to ./logs/
+2022-03-11 11:20:03,330DEBUG   Data Hash: bcb08deee304e55b1a291bb0425ef45d0398813f2d493193c9c0d5cb6b58e2f4cb2bbca89252beb99b5bd47ab9dc680883689c14d100e5d3dbd9c14dcdc4cda4
+2022-03-11 11:20:03,331DEBUG   Output File Hash: bcb08deee304e55b1a291bb0425ef45d0398813f2d493193c9c0d5cb6b58e2f4cb2bbca89252beb99b5bd47ab9dc680883689c14d100e5d3dbd9c14dcdc4cda4
+2022-03-11 11:20:03,430DEBUG   Writing www.facebook.com/watch to ./logs/
+2022-03-11 11:20:03,430DEBUG   Data Hash: a04e43aa7d3eac10d7f39e10fb3ed3935d32a1db120d43a3fbe5c754ed6bbe8bb067b8b68ce408a28d5f29e08a15609ffacadfe99bfde47faf44698c91a406ef
+2022-03-11 11:20:03,431DEBUG   Output File Hash: a04e43aa7d3eac10d7f39e10fb3ed3935d32a1db120d43a3fbe5c754ed6bbe8bb067b8b68ce408a28d5f29e08a15609ffacadfe99bfde47faf44698c91a406ef
+2022-03-11 11:20:05,415DEBUG   Writing developers.facebook.com/?ref=pf to ./logs/
+2022-03-11 11:20:05,415DEBUG   Data Hash: 076ba05106e3ddf7d717de528511f2269ce63c60bd7f065f387b78be1433ce33ecff630be3ec78023524ca154c0bb65612980a25707ffeec6dafb34d9a7cf3df
+2022-03-11 11:20:05,417DEBUG   Output File Hash: 076ba05106e3ddf7d717de528511f2269ce63c60bd7f065f387b78be1433ce33ecff630be3ec78023524ca154c0bb65612980a25707ffeec6dafb34d9a7cf3df
+2022-03-11 11:20:05,587DEBUG   Writing hi-in.facebook.com to ./logs/
+2022-03-11 11:20:05,587DEBUG   Data Hash: 128eaa05508e7f47f9ae171ccc2b93e15d8bcba722ca84d8767959dbe267a16dbf9bfdefd57610d03643bde6831412aae65f3beedde285b79aa243328de8f889
+2022-03-11 11:20:05,588DEBUG   Output File Hash: 128eaa05508e7f47f9ae171ccc2b93e15d8bcba722ca84d8767959dbe267a16dbf9bfdefd57610d03643bde6831412aae65f3beedde285b79aa243328de8f889
+2022-03-11 11:20:05,693DEBUG   Writing es-la.facebook.com to ./logs/
+2022-03-11 11:20:05,694DEBUG   Data Hash: 05d738d2dfc4bc0cb4f5a58c553ffc6e5a0f14f1ffc4c3677e6a5e4a888d1f6848eb30db980560b14e2dff18cf7cfe7b5cd3270a7ac216adfe5d21c12f7a16b7
+2022-03-11 11:20:05,695DEBUG   Output File Hash: 05d738d2dfc4bc0cb4f5a58c553ffc6e5a0f14f1ffc4c3677e6a5e4a888d1f6848eb30db980560b14e2dff18cf7cfe7b5cd3270a7ac216adfe5d21c12f7a16b7
+2022-03-11 11:20:06,210DEBUG   Writing about.facebook.com to ./logs/
+2022-03-11 11:20:06,211DEBUG   Data Hash: 4f65f967d607ccceddb6cb5927415dca13e30352637abf01c121e2eedeb42155256765ba296cab14b8e14571a97b9d0a0c06013b8f8d1e992e45cc6eae48c5a1
+2022-03-11 11:20:06,213DEBUG   Output File Hash: 4f65f967d607ccceddb6cb5927415dca13e30352637abf01c121e2eedeb42155256765ba296cab14b8e14571a97b9d0a0c06013b8f8d1e992e45cc6eae48c5a1
+2022-03-11 11:20:06,377DEBUG   Writing pt-br.facebook.com to ./logs/
+2022-03-11 11:20:06,377DEBUG   Data Hash: fb94f2dcb33c4da19cc647747837da7ac09e978df154e50cfe45dd956d5d687a9d559e6d928126c60b2e54c348cbee9e9be7babee778ea829909dfe84bbadbf1
+2022-03-11 11:20:06,378DEBUG   Output File Hash: fb94f2dcb33c4da19cc647747837da7ac09e978df154e50cfe45dd956d5d687a9d559e6d928126c60b2e54c348cbee9e9be7babee778ea829909dfe84bbadbf1
+2022-03-11 11:20:06,509DEBUG   Writing fr-fr.facebook.com to ./logs/
+2022-03-11 11:20:06,510DEBUG   Data Hash: fede62b4335b1d9bda0b5c24748956e8d02c54ca50cdebc7633c2b74823a7a700b54b27f4422694c5e5c880926e156ea9aeaecf0e3fc3727c70eec86e53d6fd7
+2022-03-11 11:20:06,511DEBUG   Output File Hash: fede62b4335b1d9bda0b5c24748956e8d02c54ca50cdebc7633c2b74823a7a700b54b27f4422694c5e5c880926e156ea9aeaecf0e3fc3727c70eec86e53d6fd7
+2022-03-11 11:20:06,520INFO    Identified 18 links throughout website
+2022-03-11 11:20:06,520INFO    Completed preservation of http://facebook.com

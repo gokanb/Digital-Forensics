@@ -6,12 +6,11 @@ import os
 '''
 Description: 
 
-This scripts aims to iterate over a directory and its subdirectories to recursively process all files.
+# This scripts aims to iterate over a directory and its subdirectories to recursively process all files.
+# We will use this script list the directories path.
 
-we will use this script list the directories path.
-
-To run this script. file name <os_dir_walk.py> pass <dir_path>
-example: python os_dir_walk.py ~/Desktop/Projects/scripts > directory_report.txt 
+# To run this script. file name <os_dir_walk.py> pass <dir_path>
+# example: python os_dir_walk.py ~/Desktop/Projects/scripts > directory_report.txt 
 
 '''
 

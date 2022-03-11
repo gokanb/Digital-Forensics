@@ -40,3 +40,5 @@ for worker in workers:
     worker.join()
     logger.info("Joined process {}".format(worker.name))
     
+    
+    
